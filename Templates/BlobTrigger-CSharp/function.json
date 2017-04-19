@@ -2,10 +2,10 @@
     "disabled": false,
     "bindings": [
         {
-            "name": "myBlob",
+            "name": "archive_blob",
             "type": "blobTrigger",
             "direction": "in",
-            "path": "samples-workitems/{name}",
+            "path": "archive/{name}",
             "connection":""
         }
     ]
